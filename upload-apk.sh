@@ -19,6 +19,8 @@ cd apk
 \cp -r ../app/build/outputs/apk/debug/output.json debug-output.json
 \cp -r ../app/build/outputs/apk/release/output.json release-output.json
 
+\cp -r ../app/build/outputs/apk/release/output.json release-output.json
+
 # Signing Apps
 
 if [ "$TRAVIS_BRANCH" == "$PUBLISH_BRANCH" ]; then
